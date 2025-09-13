@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>فتح انستغرام</title>
+    <script>
+        window.onload = function() {
+            var username = 'ahmed.hamoud99';
+            setTimeout(function() {
+                window.location.href = 'instagram://user?username=' + username;
+            }, 100);
+            setTimeout(function() {
+                window.location.href = 'https://www.instagram.com/' + username;
+            }, 500);
+        }
+    </script>
+</head>
+<body>
+    <p>جاري التوجيه إلى انستغرام...</p>
+</body>
+</html>
